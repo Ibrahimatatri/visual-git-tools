@@ -1,0 +1,12 @@
+Repository URL: https://github.com/Ibrahimatatri/visual-git-tools
+
+Branches:
+main
+visual-tools
+
+Feature commits:
+Create checkout.py
+Update checkout.py
+
+History explanation:
+The initial commit is shared by both main and visual-tools because visual-tools was created from main after that commit. The Create checkout.py and Update checkout.py commits are unique to visual-tools. HEAD is currently on visual-tools, and visual-tools points to the newest feature commit.
