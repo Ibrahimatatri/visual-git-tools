@@ -1,0 +1,14 @@
+Line under investigation:
+return total
+
+Commit ID:
+70669cb
+
+Author/date shown by GitHub Desktop:
+Ibrahimatatri — just now
+
+Commit message:
+Fix checkout total return value
+
+Interpretation:
+The previous commit changed the function to return subtotal instead of total, which caused the tax calculation to be ignored even though total was calculated correctly. Commit 70669cb changed the line from "return subtotal" to "return total", restoring the intended behavior by returning the value that includes tax.
