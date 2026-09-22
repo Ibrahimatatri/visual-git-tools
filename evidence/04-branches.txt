@@ -1,0 +1,17 @@
+Branch before merge:
+visual-tools contained the feature commits, while main contained the original main history.
+
+Merge action:
+I switched to main in GitHub Desktop and used Merge into current branch to merge visual-tools into main.
+
+Git concept:
+The current branch is the merge target. Merge integrates the selected source branch into the currently checked-out branch.
+
+Remote update:
+I edited README.md directly on GitHub.com and committed the change to main.
+
+Synchronization:
+In GitHub Desktop, Fetch origin checked for remote changes and Pull origin downloaded and integrated the new remote commit into local main.
+
+Final state:
+Local main contains the merged visual-tools commits and the README change made on GitHub. The working tree is clean and synchronized with the remote repository.
