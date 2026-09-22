@@ -11,7 +11,7 @@ Main review note.
 Feature review note.
 
 Merge commit message:
-Resolve README merge conflict
+Merge branch 'visual-tools'
 
 Explanation:
 Both branches modified the same location in README.md differently, so Git could not decide automatically which version to keep. I resolved the conflict by keeping both intended lines, removing the conflict markers, completing the merge, and publishing the resolved result.
