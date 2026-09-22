@@ -1,0 +1,20 @@
+Commit 1:
+Clarify checkout tax calculation
+
+Files:
+checkout.py
+
+Summary:
+This commit changes the checkout calculation so the tax amount is calculated explicitly before being added to the subtotal.
+
+Commit 2:
+Document visual Git practice
+
+Files:
+README.md
+
+Summary:
+This commit adds documentation explaining the purpose of the repository.
+
+Why the changes were separated:
+The checkout.py change modifies program behavior, while the README.md change only changes documentation. Keeping them in separate commits makes each change easier to review, explain, revert, or troubleshoot without affecting the unrelated change.
